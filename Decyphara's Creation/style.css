@@ -1,0 +1,186 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home1 {
+    opacity: 80%;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.proceed a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+.proceed a:hover {
+    color: darkorange;
+}
+button.proceed {
+    background-color: darkorange;
+    color: darkorange;
+    margin: 20px;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+button.proceed:hover {
+    background-color: green;
+}
+center {
+    background-color: rgb(1, 46, 59);
+    margin: 20px 300px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(207, 138, 10);
+    border-width: 1px;
+}
+center:hover {
+    background-color: rgb(1, 20, 27);
+}
+.home2 {
+    background-image: url(images/Manager\'s\ Office.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hometwo {
+    background-color: darkorange;
+    text-align: center;
+}
+.hometwo ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(174, 211, 224);
+}
+.hometwo ul li {
+
+    margin: 15px;
+    padding: 15px;
+}
+.hometwo ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.hometwo ul li:hover {
+    background-color: rgb(4, 119, 161);
+    border-radius: 5px; 
+}
+
+.sub-menu1 {
+    display: none;
+    text-align: left;
+}
+.hometwo ul li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(1, 46, 59);
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 10px;
+}
+.hometwo ul li:hover .sub-menu1 ul {
+    display: block;
+    margin: 10px;
+}
+.sub-menu2 {
+    display: none;
+    text-align: left;
+}
+.hometwo ul li:hover .sub-menu2 {
+    display: block;
+    position: absolute;
+    background-color: rgb(1, 46, 59);
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 10px;
+}
+.hometwo ul li:hover .sub-menu2 ul {
+    display: block;
+    margin: 10px;
+}
+
+.sub-menu3 {
+    display: none;
+    text-align: left;
+}
+.hometwo ul li:hover .sub-menu3 {
+    display: block;
+    position: absolute;
+    background-color: rgb(1, 46, 59);
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 10px;
+}
+.hometwo ul li:hover .sub-menu3 ul {
+    display: block;
+    margin: 10px;
+}
+
+.sub-menu4 {
+    display: none;
+    text-align: left;
+}
+.hometwo ul li:hover .sub-menu4 {
+    display: block;
+    position: absolute;
+    background-color: rgb(1, 46, 59);
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 10px;
+}
+.hometwo ul li:hover .sub-menu4 ul {
+    display: block;
+    margin: 10px;
+}
+
+.sub-menu5 {
+    display: none;
+    text-align: left;
+}
+.hometwo ul li:hover .sub-menu5 {
+    display: block;
+    position: absolute;
+    background-color: rgb(1, 46, 59);
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 10px;
+}
+.hometwo ul li:hover .sub-menu5 ul {
+    display: block;
+    margin: 10px;
+}
+.sub-menu6 {
+    display: none;
+    text-align: left;
+}
+.hometwo ul li:hover .sub-menu6 {
+    display: block;
+    position: absolute;
+    background-color: rgb(1, 46, 59);
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 10px;
+}
+.hometwo ul li:hover .sub-menu6 ul {
+    display: block;
+    margin: 10px;
+}
+.sub-menu7 {
+    display: none;
+    text-align: left;
+}
+.hometwo ul li:hover .sub-menu7 {
+    display: block;
+    position: absolute;
+    background-color: rgb(1, 46, 59);
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 10px;
+}
+.hometwo ul li:hover .sub-menu7 ul {
+    display: block;
+    margin: 10px;
+}
